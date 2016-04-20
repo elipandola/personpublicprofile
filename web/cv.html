@@ -1,53 +1,56 @@
-<!DOCTYPE html>
-<html lang="">
 
-
+<!DOCTYPE HTML>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- ===========================
-    THEME INFO
-    =========================== -->
-    <meta name="description" content="CVstrap is another Free minimal CV HTML theme by EvenFly built with Bootstrap 3.3.0. and released under CC-3.0 license.">
-    <meta name="keywords" content="curriculum vitae, cv, one page, onepage, bootstrap, responsive, resume, timeline, free cv">
-    <meta name="author" content="Mamun Srizon">
-
-    <!-- ===========================
-    SITE TITLE
-    =========================== -->
-    <title>CVstrap - Free Bootstrap CV Template by EvenFly</title>
-
-    <!-- ===========================
-    FAVICONS
-    =========================== -->
-    <link rel="icon" href="img/favicon.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="img/apple-touch-icon-ipad-retina.png" />
-    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-iphone-retina.png" />
-    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-ipad.png" />
-    <link rel="apple-touch-icon" sizes="57x57" href="img/apple-touch-icon-iphone.png" />
-
-    <!-- ===========================
-    STYLESHEETS
-    =========================== -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style2.css">
-    <link rel="stylesheet" href="css/responsive2.css">
-
-    <!-- ===========================
-    FONTS & ICONS
-    =========================== -->
-    <link href='//fonts.googleapis.com/css?family=Kristi|Alegreya+Sans:300' rel='stylesheet' type='text/css'>
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-
-
-    <!--[if IE]>
-        <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+<title>Portafolio - Jose A Rocha</title>
+<link href="web/css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="css/style2.css">
+<link rel="stylesheet" href="css/responsive2.css">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="icon" href="img/favicon.png">
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event){     
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+            });
+        });
+        </script>
 </head>
 
 <body>
+<div class="header">
+    <div class="header-top">
+       <div class="wrap">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" title="logo"></a>
+            </div>
+            <div class="top-nav">
+                <ul>
+                    <li class="active"><a href="#home" class="scroll">Inicio</a></li>
+                    
+                    <li><a href="cv.html">Portafolio</a></li>
+                    <li><a href="#contact" class="scroll">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <div class="header-bottom" id="home">
+        <div class="wrap">
+            <div class="banner">
+                <img src="images/jart.jpg"  alt="" />
+            </div>
+        </div>
+    </div>
+</div>
+<div class="main">
+  <div class="wrap">
+    <div class="content">
+
+
     <div class="container">
         <!-- ===========================
         HEADER
@@ -367,19 +370,27 @@
         </div><!--right end-->
     </div><!--container end-->
 
-    <!-- ===========================
-    FOOTER
-    =========================== -->
-    <footer class="text-center">
-        <p>&copy; <a href="http://creativecommons.org/licenses/by/3.0/">CC-3.0</a>, Just another CV template by <a href="https://evenfly.com">EvenFly </a> - Designed by <a target="_blank" href="http://www.facebook.com/towkirahmedbappy">Towkir Ahmed Bappy</a>.
-        </p>
-    </footer>
+  </div>
+
+</div>
+
+
+<div class="footer">
+  <div class="wrap">
+    <div class="copy">
+      <p> © 2013 All rights Reserved | Design by <a href="http://w3layouts.com">W3Layouts</a></p>
+    </div>
+  </div>
+ </div>
+
+
+</div>
 
     <!--necessary scripts and plugins-->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
     <script src="js/jquery.nicescroll.min.js"></script>
     <script src="js/evenfly.js"></script>
-</body>
 
+</body>
 </html>
