@@ -19,8 +19,8 @@ elseif ($page_name=='index.html') {
 elseif ($page_name=='portfolio.html') {
 	include $browser_t.'/portfolio.html';
 	}
-elseif ($page_name=='contact.html') {
-	include $browser_t.'/contact.html';
+elseif ($page_name=='articles.html') {
+	include $browser_t.'/articles.html';
 	}
 elseif ($page_name=='contact-post.html') {
 	include 'app/contact.php';
