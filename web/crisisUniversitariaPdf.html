@@ -1,0 +1,43 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Jose A Rocha</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript">
+    jQuery(document).ready(function($) {
+      $(".scroll").click(function(event){   
+        event.preventDefault();
+        $('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+      });
+    });
+    </script>
+  </head>
+<body>
+<div class="header">
+  <div class="header-top">
+     <div class="wrap">
+      <div class="logo">
+        <img src="images/logo.png" title="logo">
+      </div>
+      <div class="top-nav">
+        <ul>
+          <li><a href="../" >Inicio</a></li>
+          <li><a href="cv.html">Portafolio</a></li>
+          <li><a href="articles.html" >Art&iacute;culos</a></li>
+        </ul>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+</div>
+<br><br><br><br><br><br>
+<div class="content-middle" align="center">
+  <embed src="./pdfs/DESARROLLO_Y_PERSPECTIVAS_DE_LA_CRISIS_UNIVERSITARIA.pdf" width="700" height="800" >
+  <div class="clear"></div>
+</div>
+</body>
+</html>
